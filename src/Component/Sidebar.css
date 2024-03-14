@@ -1,0 +1,101 @@
+.sidebar {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.dots {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: chartreuse !important;
+}
+
+.dots-1 {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: rgb(151, 16, 122) !important;
+}
+
+.sidebar-text {
+    padding: 10px !important;
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #686565 !important;
+}
+
+.sidebar-user {
+    text-align: left !important;
+    font-size: 12px !important;
+    color: #686565 !important;
+}
+
+.addSchema {
+    text-align: center !important;
+    font-size: 12px !important;
+    color: rgb(75, 187, 187);
+    border-bottom: 2px solid !important;
+    border-color: rgb(75, 187, 187);
+}
+
+input {
+    height: 25px !important;
+    width: 280px !important;
+}
+.btnSge{
+    color:#fff !important;
+    background-color: #1d9e7e !important;
+}
+.cancel{
+    color: brown !important;
+}
+.app {
+    padding-right: 320px;
+}
+.buttonFoot{
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    right: 16% !important;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    justify-content: center !important;
+}
+.saveButton {
+    height: 100px !important;
+    width: 70px !important;
+    /* font-size: 12px !important; */
+    color: #fff !important;
+    background-color: #1d9e7e !important;
+}
+
+.dropValues {
+    height: 100px !important;
+    width: 290px !important;
+    border: 2px solid !important;
+    border-color: blue !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+select {
+    width: 290px !important;
+    height: 20px !important;
+
+}
+
+.heading {
+    background-color: #63beca !important;
+    height: 50px !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    text-align: left !important;
+}

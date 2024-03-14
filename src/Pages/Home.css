@@ -1,0 +1,43 @@
+.sidebar {
+    width: 300px; 
+    height: 100%; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #f0f0f0; 
+    border-left: 1px solid #ccc; 
+    padding: 20px;
+    z-index: 1000; 
+  }
+  .headings{
+    font-size: 36px !important;
+    text-align: center !important;
+  }
+
+  .heading{
+    background-color: #63beca !important;
+    height: 50px !important;
+    color: #fff !important;
+    padding: 10px !important;
+  text-align: left !important;
+  }
+  .saveSegment{
+    font-size: 22px !important;
+    width: 200px !important;
+    height: 50px !important;
+    border: 1px solid;
+  }
+  .headers{
+    background-color: #ccc !important;
+    width: 100% !important;
+    height: 900px !important;
+  }
+  .segmentButton{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 12% !important;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    justify-content: center !important;
+  }
